@@ -1,0 +1,67 @@
+.api-settings {
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.api-settings h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccd0d4;
+}
+
+.auth-method {
+    margin: 15px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+}
+
+.auth-method label {
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.auth-method input[type="radio"] {
+    margin-right: 5px;
+}
+
+.auth-section {
+    margin-top: 15px;
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+}
+
+.auth-section table {
+    margin-top: 0;
+}
+
+#chatgpt_api_test_result,
+#deepseek_api_test_result,
+#chatgpt_email_test_result,
+#deepseek_email_test_result {
+    display: inline-block;
+    min-width: 150px;
+    padding: 5px;
+}
+
+/* Video container styles */
+.video-container {
+    position: relative;
+    width: 100%;
+    margin: 1.5em 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
